@@ -1,0 +1,155 @@
+
+======================================================================
+DATASET: car_data.csv
+======================================================================
+
+Rows: 301
+Columns: 9
+
+COLUMN NAMES AND DATA TYPES:
+Car_Name          object
+Year               int64
+Selling_Price    float64
+Present_Price    float64
+Kms_Driven         int64
+Fuel_Type         object
+Seller_Type       object
+Transmission      object
+Owner              int64
+
+FIRST FIVE ROWS:
+  Car_Name  Year  Selling_Price  Present_Price  Kms_Driven Fuel_Type Seller_Type Transmission  Owner
+0     ritz  2014           3.35           5.59       27000    Petrol      Dealer       Manual      0
+1      sx4  2013           4.75           9.54       43000    Diesel      Dealer       Manual      0
+2     ciaz  2017           7.25           9.85        6900    Petrol      Dealer       Manual      0
+3  wagon r  2011           2.85           4.15        5200    Petrol      Dealer       Manual      0
+4    swift  2014           4.60           6.87       42450    Diesel      Dealer       Manual      0
+
+MISSING VALUES: None
+
+Exact duplicate rows: 2
+
+NUMERIC COLUMN STATISTICS:
+               count          mean           std      min      25%      50%      75%       max
+Year           301.0   2013.627907      2.891554  2003.00   2012.0   2014.0   2016.0    2018.0
+Selling_Price  301.0      4.661296      5.082812     0.10      0.9      3.6      6.0      35.0
+Present_Price  301.0      7.628472      8.644115     0.32      1.2      6.4      9.9      92.6
+Kms_Driven     301.0  36947.205980  38886.883882   500.00  15000.0  32000.0  48767.0  500000.0
+Owner          301.0      0.043189      0.247915     0.00      0.0      0.0      0.0       3.0
+Car_Name: 98 unique values
+Fuel_Type: 3 unique values
+Seller_Type: 2 unique values
+Transmission: 2 unique values
+
+======================================================================
+DATASET: car_details.csv
+======================================================================
+
+Rows: 4340
+Columns: 8
+
+COLUMN NAMES AND DATA TYPES:
+name             object
+year              int64
+selling_price     int64
+km_driven         int64
+fuel             object
+seller_type      object
+transmission     object
+owner            object
+
+FIRST FIVE ROWS:
+                       name  year  selling_price  km_driven    fuel seller_type transmission         owner
+0             Maruti 800 AC  2007          60000      70000  Petrol  Individual       Manual   First Owner
+1  Maruti Wagon R LXI Minor  2007         135000      50000  Petrol  Individual       Manual   First Owner
+2      Hyundai Verna 1.6 SX  2012         600000     100000  Diesel  Individual       Manual   First Owner
+3    Datsun RediGO T Option  2017         250000      46000  Petrol  Individual       Manual   First Owner
+4     Honda Amaze VX i-DTEC  2014         450000     141000  Diesel  Individual       Manual  Second Owner
+
+MISSING VALUES: None
+
+Exact duplicate rows: 763
+
+NUMERIC COLUMN STATISTICS:
+                count           mean            std      min        25%       50%       75%        max
+year           4340.0    2013.090783       4.215344   1992.0    2011.00    2014.0    2016.0     2020.0
+selling_price  4340.0  504127.311751  578548.736139  20000.0  208749.75  350000.0  600000.0  8900000.0
+km_driven      4340.0   66215.777419   46644.102194      1.0   35000.00   60000.0   90000.0   806599.0
+name: 1491 unique values
+fuel: 5 unique values
+seller_type: 3 unique values
+transmission: 2 unique values
+owner: 5 unique values
+
+======================================================================
+DATASET: car_details_v4.csv
+======================================================================
+
+Rows: 2059
+Columns: 20
+
+COLUMN NAMES AND DATA TYPES:
+Make                   object
+Model                  object
+Price                   int64
+Year                    int64
+Kilometer               int64
+Fuel Type              object
+Transmission           object
+Location               object
+Color                  object
+Owner                  object
+Seller Type            object
+Engine                 object
+Max Power              object
+Max Torque             object
+Drivetrain             object
+Length                float64
+Width                 float64
+Height                float64
+Seating Capacity      float64
+Fuel Tank Capacity    float64
+
+FIRST FIVE ROWS:
+            Make                            Model    Price  Year  Kilometer Fuel Type Transmission   Location   Color   Owner Seller Type   Engine           Max Power              Max Torque Drivetrain  Length   Width  Height  Seating Capacity  Fuel Tank Capacity
+0          Honda              Amaze 1.2 VX i-VTEC   505000  2017      87150    Petrol       Manual       Pune    Grey   First   Corporate  1198 cc   87 bhp @ 6000 rpm       109 Nm @ 4500 rpm        FWD  3990.0  1680.0  1505.0               5.0                35.0
+1  Maruti Suzuki                  Swift DZire VDI   450000  2014      75000    Diesel       Manual   Ludhiana   White  Second  Individual  1248 cc   74 bhp @ 4000 rpm       190 Nm @ 2000 rpm        FWD  3995.0  1695.0  1555.0               5.0                42.0
+2        Hyundai             i10 Magna 1.2 Kappa2   220000  2011      67000    Petrol       Manual    Lucknow  Maroon   First  Individual  1197 cc   79 bhp @ 6000 rpm  112.7619 Nm @ 4000 rpm        FWD  3585.0  1595.0  1550.0               5.0                35.0
+3         Toyota                         Glanza G   799000  2019      37500    Petrol       Manual  Mangalore     Red   First  Individual  1197 cc   82 bhp @ 6000 rpm       113 Nm @ 4200 rpm        FWD  3995.0  1745.0  1510.0               5.0                37.0
+4         Toyota  Innova 2.4 VX 7 STR [2016-2020]  1950000  2018      69000    Diesel       Manual     Mumbai    Grey   First  Individual  2393 cc  148 bhp @ 3400 rpm       343 Nm @ 1400 rpm        RWD  4735.0  1830.0  1795.0               7.0                55.0
+
+MISSING VALUES:
+Drivetrain            136
+Fuel Tank Capacity    113
+Engine                 80
+Max Torque             80
+Max Power              80
+Length                 64
+Width                  64
+Height                 64
+Seating Capacity       64
+
+Exact duplicate rows: 0
+
+NUMERIC COLUMN STATISTICS:
+                     count          mean           std      min        25%       50%        75%         max
+Price               2059.0  1.702992e+06  2.419881e+06  49000.0  484999.00  825000.0  1925000.0  35000000.0
+Year                2059.0  2.016425e+03  3.363564e+00   1988.0    2014.00    2017.0     2019.0      2022.0
+Kilometer           2059.0  5.422471e+04  5.736172e+04      0.0   29000.00   50000.0    72000.0   2000000.0
+Length              1995.0  4.280861e+03  4.424585e+02   3099.0    3985.00    4370.0     4629.0      5569.0
+Width               1995.0  1.767992e+03  1.352658e+02   1475.0    1695.00    1770.0     1831.5      2220.0
+Height              1995.0  1.591735e+03  1.360740e+02   1165.0    1485.00    1545.0     1675.0      1995.0
+Seating Capacity    1995.0  5.306266e+00  8.221701e-01      2.0       5.00       5.0        5.0         8.0
+Fuel Tank Capacity  1946.0  5.200221e+01  1.511020e+01     15.0      41.25      50.0       60.0       105.0
+Make: 33 unique values
+Model: 1050 unique values
+Fuel Type: 9 unique values
+Transmission: 2 unique values
+Location: 77 unique values
+Color: 17 unique values
+Owner: 6 unique values
+Seller Type: 3 unique values
+Engine: 108 unique values
+Max Power: 335 unique values
+Max Torque: 290 unique values
+Drivetrain: 3 unique values

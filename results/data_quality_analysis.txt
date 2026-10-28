@@ -1,0 +1,86 @@
+
+=================================================================
+car_data.csv
+
+Missing values: None
+
+Duplicate rows: 2
+Duplicate percentage: 0.66%
+
+Target variable: Selling_Price
+count    301.000000
+mean       4.661296
+std        5.082812
+min        0.100000
+25%        0.900000
+50%        3.600000
+75%        6.000000
+max       35.000000
+
+No negative numerical values found.
+Year: 7 potential outliers (bounds: 2006.00 to 2022.00)
+Selling_Price: 17 potential outliers (bounds: -6.75 to 13.65)
+Present_Price: 14 potential outliers (bounds: -11.85 to 22.95)
+Kms_Driven: 8 potential outliers (bounds: -35650.50 to 99417.50)
+Owner: 11 potential outliers (bounds: 0.00 to 0.00)
+Zero values in Owner: 290
+
+=================================================================
+car_details.csv
+
+Missing values: None
+
+Duplicate rows: 763
+Duplicate percentage: 17.58%
+
+Target variable: selling_price
+count    4.340000e+03
+mean     5.041273e+05
+std      5.785487e+05
+min      2.000000e+04
+25%      2.087498e+05
+50%      3.500000e+05
+75%      6.000000e+05
+max      8.900000e+06
+
+No negative numerical values found.
+year: 105 potential outliers (bounds: 2003.50 to 2023.50)
+selling_price: 271 potential outliers (bounds: -378125.62 to 1186875.38)
+km_driven: 110 potential outliers (bounds: -47500.00 to 172500.00)
+
+=================================================================
+car_details_v4.csv
+
+Missing values:
+Drivetrain            136
+Fuel Tank Capacity    113
+Engine                 80
+Max Torque             80
+Max Power              80
+Length                 64
+Width                  64
+Height                 64
+Seating Capacity       64
+
+Duplicate rows: 0
+Duplicate percentage: 0.00%
+
+Target variable: Price
+count    2.059000e+03
+mean     1.702992e+06
+std      2.419881e+06
+min      4.900000e+04
+25%      4.849990e+05
+50%      8.250000e+05
+75%      1.925000e+06
+max      3.500000e+07
+
+No negative numerical values found.
+Price: 215 potential outliers (bounds: -1675002.50 to 4085001.50)
+Year: 7 potential outliers (bounds: 2006.50 to 2026.50)
+Kilometer: 36 potential outliers (bounds: -35500.00 to 136500.00)
+Width: 182 potential outliers (bounds: 1490.25 to 2036.25)
+Height: 31 potential outliers (bounds: 1200.00 to 1960.00)
+Seating Capacity: 380 potential outliers (bounds: 5.00 to 5.00)
+Fuel Tank Capacity: 50 potential outliers (bounds: 13.12 to 88.12)
+Zero values in Kilometer: 1

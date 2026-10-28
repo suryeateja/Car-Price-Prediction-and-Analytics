@@ -1,0 +1,17 @@
+CAR PRICE PREDICTION - PREPROCESSING REPORT
+=======================================================
+Original shape: (2059, 20)
+Exact duplicates removed: 0
+Invalid/missing target rows removed: 0
+Invalid year rows removed: 0
+Negative kilometre rows removed: 0
+Missing cells before imputation: 745
+Potential numerical outliers identified and retained.
+Missing cells after imputation: 0
+Final shape: (2059, 20)
+Original shape: (2059, 20)
+Processed shape: (2059, 20)
+Numerical feature missing values: median imputation.
+Categorical feature missing values: Unknown.
+Target price was not imputed.
+Potential outliers were retained because unusual values may represent legitimate vehicles.

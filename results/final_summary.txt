@@ -1,0 +1,29 @@
+CAR PRICE PREDICTION AND ANALYTICS
+=============================================
+Dataset: car_details_v4.csv
+Rows used: 2059
+Features: 19
+Training rows: 1647
+Testing rows: 412
+Train-test split: 80/20
+Random state: 42
+Selected model: Gradient Boosting Regressor
+Number of estimators: 100
+
+EVALUATION METRICS
+R2 Score: 0.7915
+MAE: Rs. 374,894.10
+RMSE: Rs. 1,206,859.14
+
+PREPROCESSING
+Numerical missing values: median imputation
+Categorical missing values: most-frequent imputation
+Categorical encoding: One-Hot Encoding
+
+EXPERIMENT FINDINGS
+Preprocessing modestly improved performance in the earlier model comparison.
+IQR-based training-row filtering performed worse on the evaluated test set.
+Log-target transformation reduced MAE but worsened RMSE and R2 in the earlier experiment.
+
+LIMITATIONS
+Evaluation uses a single holdout split. Further validation is recommended.
